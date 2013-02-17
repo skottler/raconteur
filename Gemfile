@@ -16,7 +16,10 @@ end
 gem 'jquery-rails'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'jbuilder'
-gem 'anjlab-bootstrap-rails', '>= 2.3', :require => 'bootstrap-rails'
+
+gem "therubyracer"
+gem "less-rails"
+gem "twitter-bootstrap-rails"
 
 gem 'thin', :group => :development
 
