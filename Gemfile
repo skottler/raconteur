@@ -23,6 +23,8 @@ gem "twitter-bootstrap-rails"
 
 gem 'thin', :group => :development
 
+gem 'sidekiq'
+
 group :development do
   gem 'debugger'
 end
